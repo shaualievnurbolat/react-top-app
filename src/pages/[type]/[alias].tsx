@@ -83,8 +83,6 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({ params }: Ge
       notFound: true
     }
   }
-
-  
 }
 
 interface CourseProps extends Record<string, unknown> {
